@@ -1,14 +1,9 @@
 {
   "name": "cerebro-weather-plugin",
   "version": "0.1.0",
-  "description": "",
+  "description": "Weather plugin for Cerebro",
   "license": "MIT",
-  "repository": "KELiON/cerebro-plugin",
-  "authors": [{
-    "name": "Harsha Ivaturi",
-  }, {
-    "name": "Inderpal Singh",
-  }],
+  "repository": "git@github.com:harshai/cerebro-weather.git",
   "engines": {
     "node": ">=4"
   },
@@ -32,10 +27,21 @@
     "babili": "0.0.9",
     "cerebro-tools": "^0.1.0",
     "css-loader": "^0.26.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
     "react": "^15.4.1",
     "rimraf": "^2.6.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "2.1.0-beta.27"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "ramda": "^0.23.0"
   }
 }
