@@ -1,7 +1,14 @@
 {
-  "extends": "airbnb",
+  "extends": [
+  	"airbnb",
+    "plugin:flowtype/recommended"
+  ],
   "rules": {
     "max-len": ["error", 120, { "ignoreComments": true }],
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
-  }
+  },
+  "plugins": [
+    "flowtype"
+  ],
+  "parser": "babel-eslint"
 }

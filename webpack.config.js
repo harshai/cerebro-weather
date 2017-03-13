@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const FlowWebpackPlugin = require('flow-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -41,5 +42,8 @@ module.exports = {
         loader: 'url-loader'
       }
     }]
-  }
+  },
+  plugins: [
+    new FlowWebpackPlugin(),
+  ],
 };
